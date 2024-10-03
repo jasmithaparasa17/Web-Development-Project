@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+    
+}
+.recipe-card {
+    background-color:white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.toggle-ingredients{
+    color:black;
+}
+/* CSS Transitions */
+.ingredients ul li:hover {
+    color: #d32f2f;
+    text-decoration:solid;
+}
+b{
+    color:#6A5ACD;
+}
+i{
+    color:#FF4500;
+}
