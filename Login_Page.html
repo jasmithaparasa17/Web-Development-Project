@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Styles.css">
+<title>Login</title>
+
+</head>
+<body>
+	<!-- Form Container -->
+	<div class="form-container">
+
+		<form>
+			<label for="Email">Email:</label>
+			<input type="email" placeholder="Email" required> <br>
+
+			<label for="password">Password:</label>
+			<input type="password" placeholder="Password" required><br>
+
+			<label for="ConfirmPassword">ConfirmPassword</label>
+            <input type="password" id="ConfirmPassword" name="ConfirmPassword" placeholder="ConfirmPassword">
+			<br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+			<br>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+				<button type="submit" class="submit-btn">Register</button>
+		</form>
+	</div>
+</body>
+</html>
